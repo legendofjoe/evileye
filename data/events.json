@@ -1,4 +1,12 @@
-[
+[  
+  {
+    "title": "Placeholder for Coachella",
+    "datetime": "2026-04-08T23:59:00",
+    "city": "Coachella, CA ",
+    "venue": "some dudes house",
+    "ticket_url": "https://tix.example.com/evilempire-nye",
+    "ics": "/data/evilempire-2025-12-31.ics"
+  },
   {
     "title": "The Kick Back Afterhours",
     "datetime": "2025-08-08T22:00:00",
@@ -16,7 +24,7 @@
     "ics": "/data/evileye-2025-07-29.ics"
   },
   {
-    "title": "NYE after-hours",
+    "title": "Placeholder for NYE after-hours",
     "datetime": "2025-12-31T23:59:00",
     "city": "Houston, TX",
     "venue": "Unit B",
