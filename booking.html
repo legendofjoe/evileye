@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EVIL EMPIRE — Book an After</title>
+  <meta name="description" content="Request a date, venue, and package.">
+  <meta property="og:title" content="EVIL EMPIRE — Book an After">
+  <meta property="og:description" content="Request a date, venue, and package.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://evilempire.party/booking.html">
+  <meta property="og:image" content="https://evilempire.party/images/og.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script defer src="/assets/script.js"></script>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="nav">
+    <div class="logo">
+      <img src="/images/logo.png" alt="EVIL EMPIRE logo" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'logo-badge'}))">
+      <span>EVIL EMPIRE</span>
+    </div>
+    <div>
+      <a href="/index.html">Home</a>
+      <a href="/events.html">Events</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/epk.html">EPK</a>
+      <a class="btn" href="/booking.html">Book us</a>
+    </div>
+  </div>
+
+  <section class="section">
+    <h1>Book an after</h1>
+    <div class="grid cols-2 section">
+      <div class="card">
+        <h3>Request form</h3>
+        <form action="https://formspree.io/f/your-id" method="POST">
+          <label>Your name</label>
+          <input name="name" required>
+          <label>Email</label>
+          <input type="email" name="email" required>
+          <label>Phone</label>
+          <input name="phone" placeholder="+1 (___) ___-____">
+          <label>Target date</label>
+          <input type="date" name="date">
+          <label>Venue / Address</label>
+          <input name="venue">
+          <label>Estimated headcount</label>
+          <select name="headcount">
+            <option>&lt;100</option><option>100–200</option><option>200–400</option><option>400+</option>
+          </select>
+          <label>Notes</label>
+          <textarea name="notes" rows="5" placeholder="Talent, hours, production, vibe..."></textarea>
+          <button class="btn" type="submit">Send request</button>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Packages</h3>
+        <ul class="clean">
+          <li><strong>Essentials</strong>: DJ + basic PA + door ops</li>
+          <li><strong>Pro</strong>: Essentials + lighting rig + security</li>
+          <li><strong>Takeover</strong>: Pro + decor + photo + content</li>
+        </ul>
+        <p class="section" style="color:#9aa0ac">Need something custom? Email <a href="mailto:booking@evilempire.party">booking@evilempire.party</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div>© 2025 EVIL EMPIRE. All rights reserved.</div>
+    <div>Made for the night — <span class="kbd">evilempire.party</span></div>
+  </div>
+</div>
+</body>
+</html>
