@@ -1,19 +1,19 @@
 [
   {
-    "title": "Tour after w/ secret guest",
-    "datetime": "2025-10-18T01:00:00",
-    "city": "Austin, TX",
-    "venue": "Warehouse 7",
-    "ticket_url": "https://tix.example.com/evilempire-1018",
-    "ics": "/data/evilempire-2025-10-18.ics"
+    "title": "The Kick Back Afterhours",
+    "datetime": "2025-08-08T22:00:00",
+    "city": "DTLX, CA",
+    "venue": "Warehouse ",
+    "ticket_url": "https://ra.co/events/2217085",
+    "ics": "/data/evileye-2025-08-08.ics"
   },
   {
-    "title": "Hotel ballroom pop-up",
-    "datetime": "2025-11-09T00:30:00",
-    "city": "Dallas, TX",
-    "venue": "Grand on Elm",
-    "ticket_url": "https://tix.example.com/evilempire-1109",
-    "ics": "/data/evilempire-2025-11-09.ics"
+    "title": "Hollywood Rooftop Pop-Up",
+    "datetime": "2025-07-29T22:00:00",
+    "city": "Hollywood, CA",
+    "venue": "Rooftop Pop-Up",
+    "ticket_url": "INVITE ONLY",
+    "ics": "/data/evileye-2025-07-29.ics"
   },
   {
     "title": "NYE after-hours",
