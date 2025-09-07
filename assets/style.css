@@ -22,7 +22,7 @@ body{
 }
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
-.container{max-width:1100px;margin:0 auto;padding:24px}
+.container{max-width:1100px;margin:0 auto;margin-bottom: 20px;padding:24px}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px 0}
 .logo{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.6px}
 .logo img{height:28px;width:auto;display:block}
