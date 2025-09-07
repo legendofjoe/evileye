@@ -36,7 +36,7 @@ a:hover{text-decoration:underline}
 .hero{padding:48px 0 20px;display:grid;grid-template-columns:1.2fr .8fr;gap:26px;align-items:center}
 .hero h1{font-size:clamp(34px,5vw,56px);line-height:1.08;margin:0 0 10px}
 .hero p{color:var(--muted);font-size:18px;margin:0 0 18px}
-.card{background:rgba(18,18,22,.7);backdrop-filter: blur(8px);border:1px solid #202028;border-radius:16px;padding:18px}
+.card{background:rgba(18,18,22,.7);backdrop-filter: blur(8px);border:1px solid #202028;border-radius:16px;padding:18px,margin-bottom:26px}
 .grid{display:grid;gap:16px}
 .grid.cols-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .grid.cols-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
